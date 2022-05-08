@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container div {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+}
+.container div:nth-of-type(1) {
+  background-image: url(../images/01.jfif);
+}
+.container div:nth-of-type(2) {
+  background-image: url(../images/02.jfif);
+}
+.container div:nth-of-type(3) {
+  background-image: url(../images/03.jfif);
+}
+.container div:nth-of-type(4) {
+  background-image: url(../images/04.jfif);
+}
+.container p {
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
